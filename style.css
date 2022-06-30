@@ -156,6 +156,7 @@ a:hover {
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
+
 p.text-center:nth-child(1) {
     color: #000 !important;
 }
@@ -1078,21 +1079,26 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
     .portfolio__title-h2 {
         max-width: 42rem;
         margin: auto;
-}
-
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
     }
-}
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+    .img-responsive {
+        margin: auto;
     }
-}
+
+
+    @media (max-width: 400px) {
+        .bloc {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .bloc-mob-center-text {
+            text-align: center;
+        }
+    }
