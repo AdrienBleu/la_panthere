@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,11 +150,14 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
+}
+p.text-center:nth-child(1) {
+    color: #000 !important;
 }
 
 .d-bloc .btn-wire,
@@ -690,7 +693,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -1075,7 +1078,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .portfolio__title-h2 {
+        max-width: 42rem;
+        margin: auto;
 }
+
 
 @media (max-width: 400px) {
     .bloc {
