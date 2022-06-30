@@ -523,6 +523,17 @@ button {
     transition: all .3s ease-in-out;
 }
 
+.citation {
+    font-size: 18px;
+    max-width: 51rem;
+    margin: auto;
+}
+
+.citation span {
+    font-weight: bold;
+    font-style: italic;
+}
+
 .scrollToTop span {
     margin-top: 6px;
 }
