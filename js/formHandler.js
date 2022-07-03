@@ -37,7 +37,7 @@ $(function()
 		        	url: processorFile,
 		    		type: "POST",
 		    		data: formData,
-		    		cache: false,
+		    		cache: true,
 		    		success: function() // Success
 		 			{  
 						if($form.is('[success-msg]')) // Show Success Message
